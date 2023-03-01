@@ -23,8 +23,11 @@ label1 = Label(text="Enter your name: ")
 # задаем позицию текста на экране
 label1.place(x=30, y=20)
 
+# создаем пустое текстовое поле для ввода
 textbox1 = Entry()
+# задаем положение текстового поля
 textbox1.place(x=150, y=20, width=200, height=25)
+# задаем стиль обромленного элемента
 textbox1["justify"] = "center"
 textbox1.focus()
 
@@ -33,7 +36,7 @@ button1 = Button(text="Press me", command=click)
 # устанавливаем расположение кнопки
 button1.place(x=30, y=50, width=120, height=25)
 
-# создаем текстовое поле
+# создаем поле для вывода данных
 textbox2 = Message(text="", bg="white", fg="black")
 # задаем параметры текстовому полю
 textbox2.place(x=150, y=50, width=200, height=25)
