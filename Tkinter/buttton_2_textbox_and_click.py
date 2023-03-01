@@ -27,7 +27,7 @@ label1.place(x=30, y=20)
 textbox1 = Entry()
 # задаем положение текстового поля
 textbox1.place(x=150, y=20, width=200, height=25)
-# задаем стиль обромленного элемента
+# задаем выравнивание текстового поля
 textbox1["justify"] = "center"
 textbox1.focus()
 
